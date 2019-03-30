@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- modo de visualizacion  -->
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="lista"
+        android:summary="Mostrar en modo lista"
+        android:title="@string/settings_list_radio" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="grilla"
+        android:summary="mostrar modo grilla"
+        android:title="@string/settings_grid_radio" />
+    <!-- contenido del modo de reconocimiento -->
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="razas"
+        android:summary="reconocimiento razas"
+        android:title="@string/breed_rec_check" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pelajes"
+        android:summary="reconocimiento pelajes"
+        android:title="@string/fur_rec_check" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="cruzas"
+        android:summary="reconocimiento cruzas"
+        android:title="@string/crossbreed_rec_check" />
+    <!-- modo minijuego-->
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="imagen-palabra"
+        android:summary="@string/breed_fur_radio"
+        android:title="@string/breed_fur_radio" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="palabra-imagen"
+        android:summary="@string/breed_and_fur_radio"
+        android:title="@string/breed_and_fur_radio" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="imagen-imagen"
+        android:summary="Minijuego cruzas"
+        android:title="@string/crossbreed_radio" />
+    <!-- Modo Interaccion -->
+
+    <!-- Ajustes -->
+    <SwitchPreference
+        android:defaultValue="@string/facil"
+        android:key="dificultad"
+        android:switchTextOff="@string/facil"
+        android:switchTextOn="@string/dificil"
+        android:title="Nivel" />
+    <SwitchPreference
+        android:defaultValue="@string/female_audio"
+        android:key="audio"
+        android:switchTextOff="@string/male_audio"
+        android:switchTextOn="@string/female_audio"
+        android:title="Audio" />
+</PreferenceScreen>

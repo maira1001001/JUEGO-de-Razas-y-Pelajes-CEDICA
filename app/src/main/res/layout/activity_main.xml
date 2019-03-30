@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:fillViewport="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context="com.laboratorio.entrega.razasypelejesdiazduhour.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="89dp"
+                android:background="@drawable/background_transparent"
+                android:contentDescription="@string/about_button"
+                app:srcCompat="@drawable/about_button" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name_logo"
+                app:srcCompat="@drawable/logo_app" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="89dp"
+                android:background="@drawable/background_transparent"
+                android:contentDescription="@string/settings_button"
+                android:onClick="settings"
+                app:srcCompat="@drawable/settings_button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="356dp"
+                android:layout_height="272dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/image_logo"
+                android:padding="8dp"
+                app:srcCompat="@drawable/logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Widget.AppCompat.ButtonBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom|center"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="240dp"
+                android:layout_height="190dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/logo_unlp"
+                materialdesign:srcCompat="@drawable/logo_unlp" />
+
+            <LinearLayout
+                android:layout_width="356dp"
+                android:layout_height="231dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background_transparent"
+                    android:contentDescription="@string/app_minijuego"
+                    android:onClick="miniJuego"
+                    app:srcCompat="@drawable/jugar_button" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="54dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/background_transparent"
+                    android:contentDescription="@string/app_reconocimiento"
+                    android:onClick="playRecognitionMode"
+                    materialdesign:srcCompat="@drawable/rec_button" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="240dp"
+                android:layout_height="190dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/logo_info"
+                materialdesign:srcCompat="@drawable/logo_facultad_informatica" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
