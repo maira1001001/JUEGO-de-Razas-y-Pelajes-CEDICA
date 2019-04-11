@@ -1,22 +1,22 @@
-# Laboratorio de Software 2018
+# Juego CEDICA EQUINOTERAPIA de Razas y Pelajes
 
-Trabajo realizado en Android integrado por [Ignacio Duhour](https://github.com/IgnacioDuhour) y [Maira Diaz](https://github.com/maira1001001)
+El objetivo de este prototipo es favorecer el reconocimiento e identificación  de las razas y pelajes del caballo que se utiliza en la sesión o clase de CEDICA. CEDICA es una asociación civil sin fines de lucro fundada en 1994 en la ciudad de La Plata, provincia de Buenos Aires. Desde hace más de 22 años, trabaja en sus dos sedes, el Hipódromo de La Plata y en Campo Arroyo San Juan (Arturo Seguí), realizando Terapias y Actividades Asistidas con Caballos (TACAs)
 
+La aplicación está desarrollada en Android por [Ignacio Duhour](https://github.com/IgnacioDuhour) y [Maira Diaz](https://github.com/maira1001001)
 
-El proyecto es, en una primera instancia, un prototipo simplificado de la aplicación `CEDICA RAZAS Y PELAJES`.
+El proyecto es un prototipo simplificado de la aplicación `CEDICA RAZAS Y PELAJES`.
 
-## Primera entrega 12 Dic 2018:
+Tomando como punto de partida la vigencia y beneficios que provee la utilización de TIC (Tecnologías de la Información y la Comunicación) en los procesos terapéuticos y de enseñanza y aprendizaje, el objetivo de este proyecto es poner a disposición de las alumnas y alumnos que desarrollan TACAs en CEDICA, un recurso tecnológico novedoso que colabore y potencie su progreso terapéutico.
 
-Se han implementado las siguientes características principales:
+## Dinámica del juego
+Es un juego de un único jugador y cuenta con 2 modos: *Reconocimiento* y *Juego*.
 
-- Pantalla Principal, donde el usuario podrá elegir, momentaneamente, Jugar a un minijuego, realizar configuraciones del juego y consultar les desarrolladores de la aplicación
-- Pantalla de Configuración
-
-
-Hemos optado, según los requerimientos de la cátedra, por desarrollar los siguientes minijuegos:
-
-- Minijuego de `Razas y Pelajes` con nivel de *dificultad 2* e *interacción B*.
-- Minijuego de `Cruzas` con nivel  de *dificultad 2* e *interacción C*.
+### Minijuego: Razas y Pelajes
+Objetivo: identificar razas y pelajes de manera individual.
+### Minijuego: Razas y Pelajes juntas
+Objetivo: identificar la raza y el pelaje de cada caballo en forma conjunta.
+### Minijuego: Cruza
+Objetivo: identificar cruzas de razas entre varias opciones, esto es dados dos caballos, elegir la cruza correcta
 
 
 ![Pantalla Inicio Aplicacion](https://github.com/IgnacioDuhour/laboratorioDeSoftware2018/blob/master/imagenesreadme/pantalla-inicio.png)  
